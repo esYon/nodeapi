@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
 app.use(morgan('dev'));
 
 // connect to our database (hosted on modulus.io)
-mongoose.connect('mongodb://node:noder@novus.modulusmongo.net:27017/Iganiq8o'); 
+mongoose.connect('mongodb://john:<pass>@apollo.modulusmongo.net:27017/joboT9im'); 
 
 // ROUTES FOR OUR API
 // ======================================

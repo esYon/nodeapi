@@ -1,25 +1,26 @@
 {
   "name": "nodeapi",
-  "version": "1.0.0",
-  "description": "RESTful Node API",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "morgan": "~1.5.0",
+    "express": "~4.10.3",
+    "body-parser": "~1.9.3",
+    "mongoose": "~3.8.19",
+    "bcrypt-nodejs": "0.0.3"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "esYon"
+    "url": "git+https://github.com/esYon/nodeapi.git"
   },
-  "keywords": [
-    "rest"
-  ],
-  "author": "john h",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.13.2",
-    "express": "^4.13.1",
-    "mongoose": "^4.0.7",
-    "morgan": "^1.6.1"
-  }
+  "bugs": {
+    "url": "https://github.com/esYon/nodeapi/issues"
+  },
+  "homepage": "https://github.com/esYon/nodeapi#readme",
+  "description": ""
 }
